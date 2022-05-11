@@ -19,5 +19,11 @@ The size of images in this dataset is 256 x 128 RGB and the labeled images is 25
 
 the whole data set was created starting from the videos taken from the site [Duckitown Videos link](http://ipfs.duckietown.org:8080/ipfs/QmUbtwQ3QZKmmz5qTjKM3z8LJjsrKBWLUnnzoE5L4M7y7J/logs/gallery.html)
 
+Data Costruction
+- 256 x 128 RGB (images)
+- 256 x 128 Gray scale (labels)
+- Each 13th and 20th frame in a sequence are labeled
+- Each folder consists of 20 images which are a sequence of a 4 second video
+
 
 
