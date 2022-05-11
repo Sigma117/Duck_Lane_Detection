@@ -2,7 +2,7 @@
 Development and experimentational of a neural network for the autonomous recognition of the roadway whit application to mobile robotics
 
 
-This system was created starting from data recorded in the environment of Duckietown, a simulated city in which there are small mobile robots called duckiebots, which imitate a car that circulates on the streets of this city, and the CNN use in this work it is take by (Zou, Qin, et al. "Robust Lane detection from continuous driving scenes using deep neural networks." IEEE transactions on vehicular technology 69.1. [github pages](https://github.com/Sigma117/Robust-Lane-Detection)
+This system was created starting from data recorded in the environment of Duckietown, a simulated city in which there are small mobile robots called duckiebots, which imitate a car that circulates on the streets of this city, and the CNN use in this work it is take by (Zou, Qin, et al. "Robust Lane detection from continuous driving scenes using deep neural networks." IEEE transactions on vehicular technology 69.1. [github Link](https://github.com/Sigma117/Robust-Lane-Detection)
 
 The main object of this work is to create a system can recognize a roadway using line detection using a CNN
 
@@ -17,7 +17,7 @@ The main object of this work is to create a system can recognize a roadway using
 This dataset contains 7820 image for lane detection and 782 frames of them are labeled, created from 391 continuous driving scenario videos.
 The size of images in this dataset is 256 x 128 RGB and the labeled images is 256 x 128 Gray Scale.
 
-the whole data set was created starting from the videos taken from the site http://ipfs.duckietown.org:8080/ipfs/QmUbtwQ3QZKmmz5qTjKM3z8LJjsrKBWLUnnzoE5L4M7y7J/logs/gallery.html
+the whole data set was created starting from the videos taken from the site [Duckitown Videos link](http://ipfs.duckietown.org:8080/ipfs/QmUbtwQ3QZKmmz5qTjKM3z8LJjsrKBWLUnnzoE5L4M7y7J/logs/gallery.html)
 
 
 
