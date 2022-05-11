@@ -136,7 +136,7 @@ class ConvLSTMCell(nn.Module):
 
     def init_hidden(self, batch_size):
         return (torch.zeros(batch_size, self.hidden_dim, self.height, self.width),
-                torch.zeros(batch_size, self.hidden_dim, self.height, self.width)) # se GPU aggiungere .cuda() a entrambi
+                torch.zeros(batch_size, self.hidden_dim, self.height, self.width)) # if GPU add .cuda() to both
 
 
 class ConvLSTM(nn.Module):
