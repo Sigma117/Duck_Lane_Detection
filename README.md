@@ -27,4 +27,12 @@ Data Costruction
 
 ## Using
 
-if you want to use the same CNN please look at the paper [github Link](https://github.com/Sigma117/Robust-Lane-Detection) everything is described
+If you want to use the same CNN please look at the paper [github Link](https://github.com/Sigma117/Robust-Lane-Detection) everything is described
+
+## Download
+
+You can download this dataset from the link:
+- [Train_Duck](https://drive.google.com/drive/folders/1izZTAy_6rkxxlPdOxZ9V6tvzsYUJbYBU?usp=sharing)
+- [Labels](https://drive.google.com/drive/folders/1jNy0ZBTjs7w74amte1DpFpBuoLzrU_FF?usp=sharing)
+- [Test_set](https://drive.google.com/drive/folders/11A-0cB7XQtpLR-CAJVxTIYlRb9RuAbSY?usp=sharing)
+- [Pretreined CNN](https://drive.google.com/file/d/1-zITlwEgOUXbFkGLD1BTfzA9tWzYM9Ac/view?usp=sharing)
