@@ -14,7 +14,7 @@ The aim of this work is to develop a system that is able to recognize the roadwa
 
 # Description (dataset)
 
-The dataset used in this work has been set up starting from 391 4-seconds-long videos taken by the Duckietown servers ([Duckitown Videos link](http://ipfs.duckietown.org:8080/ipfs/QmUbtwQ3QZKmmz5qTjKM3z8LJjsrKBWLUnnzoE5L4M7y7J/logs/gallery.html)). From every video, 20 frames have been drawn and organized in a single folder; particularly, each 13th and 20th frames have been labeled. Finally, the dataset contains 7820 images, among which 782 are labels. The size of the images in this dataset is 256 x 128 RGB, while for the labeled images is 256 x 128 Gray Scale.
+The dataset used in this work has been set up starting from 391 4-seconds-long videos taken by the Duckietown servers ([Duckietown Videos link](http://ipfs.duckietown.org:8080/ipfs/QmUbtwQ3QZKmmz5qTjKM3z8LJjsrKBWLUnnzoE5L4M7y7J/logs/gallery.html)). From every video, 20 frames have been drawn and organized in a single folder; particularly, each 13th and 20th frames have been labeled. Finally, the dataset contains 7820 images, among which 782 are labels. The size of the images in this dataset is 256 x 128 RGB, while for the labeled images is 256 x 128 Gray Scale. The details on how I have created this dataset are reported in [Duck_set](https://github.com/Sigma117/Duck_set-#duck_set-)
 
 ## Using
 
