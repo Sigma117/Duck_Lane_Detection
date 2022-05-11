@@ -29,6 +29,14 @@ Data Costruction
 
 If you want to use the same CNN please look at the paper [github Link](https://github.com/Sigma117/Robust-Lane-Detection) everything is described
 
+## Pretrained model
+
+In this work i show only preterened model, if you want train your ouw model you can download my dataset and take the CNN from the link in the Using section.
+To make the pre-trained model work, you need to do this steps.
+- Download the pre-trained model
+- Download the Test set
+- Download the 
+
 ## Download
 
 You can download this dataset from the link:
