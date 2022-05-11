@@ -36,7 +36,10 @@ In this work i show only preterened model, if you want train your ouw model you 
 To make the pre-trained model work, you need to do this steps.
 - Download all Duck folder
 - Download the Test set
-- Open Config.py file and change all path in your path
+- Open Config.py file and change all path in your pathù
+- Lunch file Test.py
+
+If you want try different images you just nee to add them on the test set and change the Test_index.txt (in this case you can use one of my random labels, you cont need to create as you own labels)
 
 ## Download
 
