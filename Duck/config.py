@@ -13,14 +13,11 @@ class_num = 2
 
 # path
 train_path = "/content/gdrive/MyDrive/Colab Notebooks/CNN cina/LaneDetectionCode/data/traningset_duck/indexLabels.txt"
-# /content/gdrive/MyDrive/Colab Notebooks/CNN cina/LaneDetectionCode/data/train_index.txt
-# /content/gdrive/MyDrive/Colab Notebooks/CNN cina/LaneDetectionCode/data/traningset_duck/indexLabels.txt
 val_path = "/content/gdrive/MyDrive/Colab Notebooks/CNN cina/LaneDetectionCode/data/traningset_duck/indexLabels.txt"
-#/content/gdrive/MyDrive/Colab Notebooks/CNN cina/LaneDetectionCode/data/val_index.txt
 test_path = "/content/gdrive/MyDrive/Colab Notebooks/CNN cina/LaneDetectionCode/data/traningset_duck/TestDuck_index.txt"
 save_path = "/content/gdrive/MyDrive/Colab Notebooks/CNN cina/LaneDetectionCode/save/result"
 pretrained_path='/content/gdrive/MyDrive/Colab Notebooks/CNN cina/LaneDetectionCode/pretrained/16epoch.pth'
-#/content/gdrive/MyDrive/Colab Notebooks/CNN cina/LaneDetectionCode/data/test_index_demo.txt
+
 # weight
 class_weight = [0.02, 1.02]
 
