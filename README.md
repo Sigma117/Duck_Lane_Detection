@@ -15,5 +15,9 @@ The main object of this work is to create a system can recognize a roadway using
 # Description (dataset)
 
 This dataset contains 7820 image for lane detection and 782 frames of them are labeled, created from 391 continuous driving scenario videos.
-The size of images in this dataset is 256*128 RGB and the labeled images is 256*128 Gray Scale.
+The size of images in this dataset is 256 x 128 RGB and the labeled images is 256 x 128 Gray Scale.
+
+the whole data set was created starting from the videos taken from the site http://ipfs.duckietown.org:8080/ipfs/QmUbtwQ3QZKmmz5qTjKM3z8LJjsrKBWLUnnzoE5L4M7y7J/logs/gallery.html
+
+
 
