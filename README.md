@@ -45,7 +45,7 @@ To make the pre-trained model work, you need to do this steps.
 - Open Config.py file and change all path in your path
 - Lanch file Test.py
 
-If you want try different images you just nee to add them on the test set and change the Test_index.txt (in this case you can use one of my random labels, you cont need to create as you own labels)
+If you want try different images you just need to add them on the test set and change the Test_index.txt (in this case you can use one of my random labels, you cont need to create as you own labels)
 
 ## Download
 
