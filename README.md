@@ -29,12 +29,13 @@ Data Costruction
 
 If you want to use the same CNN please look at the paper [github Link](https://github.com/Sigma117/Robust-Lane-Detection) everything is described
 
-
-## Pretrained model
 ### Requirement
 - PyTorch 0.4.0
 - Python 3.6
 - CUDA 8.0
+
+## Pretrained model
+
 
 In this work i show only preterened model, if you want train your ouw model you can download my dataset and take the CNN from the link in the Using section.
 
