@@ -1,10 +1,10 @@
 # Duck_Lane_Detection
-Development and experimentational of a neural network for the autonomous recognition of the roadway whit application to mobile robotics
+Development and experimentation of a neural network for the autonomous recognition of the roadway, with application to mobile robotics.
 
 
-This system was created starting from data recorded in the environment of Duckietown, a simulated city in which there are small mobile robots called duckiebots, which imitate a car that circulates on the streets of this city, and the CNN use in this work it is take by (Zou, Qin, et al. "Robust Lane detection from continuous driving scenes using deep neural networks." IEEE transactions on vehicular technology 69.1. [github Link](https://github.com/Sigma117/Robust-Lane-Detection)
+This work was created starting from data recorded in the environment of Duckietown, a simulated city in which there are small mobile robots called duckiebots, which imitate a car that circulates on the streets of this city. The CNN used in this work it is taken by (Zou, Qin, et al. "Robust Lane detection from continuous driving scenes using deep neural networks." IEEE transactions on vehicular technology 69.1. [github Link](https://github.com/Sigma117/Robust-Lane-Detection))
 
-The main object of this work is to create a system can recognize a roadway using line detection using a CNN
+The aim of this work is to develop a system that is able to recognize the roadway lines of a street using a CNN, starting from videos recorded by the duckiebot while traveling around the Duckietown. 
 
 # Some results
 ![IMAGE 2022-05-11 10:29:52](https://user-images.githubusercontent.com/71655239/167804918-ed84ef20-5f49-4d8f-b17c-ea0e3554912b.jpg) ![IMAGE 2022-05-11 10:30:03](https://user-images.githubusercontent.com/71655239/167804960-b2f1212d-43e4-43d2-a08e-83ad54c7c529.jpg) ![IMAGE 2022-05-11 10:30:26](https://user-images.githubusercontent.com/71655239/167805059-af89fd25-cfe1-484c-83c6-cb7282ee0689.jpg)
@@ -14,10 +14,10 @@ The main object of this work is to create a system can recognize a roadway using
 
 # Description (dataset)
 
-This dataset contains 7820 image for lane detection and 782 frames of them are labeled, created from 391 continuous driving scenario videos.
-The size of images in this dataset is 256 x 128 RGB and the labeled images is 256 x 128 Gray Scale.
+The dataset used in this work contains 7820 images extracted from 391 videos taken by the Duckietown servers ([Duckitown Videos link](http://ipfs.duckietown.org:8080/ipfs/QmUbtwQ3QZKmmz5qTjKM3z8LJjsrKBWLUnnzoE5L4M7y7J/logs/gallery.html)). Among those images, 782 have been labeled. 
+The size of the images in this dataset is 256 x 128 RGB, while for the labeled images is 256 x 128 Gray Scale.
 
-the whole data set was created starting from the videos taken from the site [Duckitown Videos link](http://ipfs.duckietown.org:8080/ipfs/QmUbtwQ3QZKmmz5qTjKM3z8LJjsrKBWLUnnzoE5L4M7y7J/logs/gallery.html)
+the whole data set was created starting from the videos taken from the site 
 
 Data Costruction
 - 256 x 128 RGB (images)
