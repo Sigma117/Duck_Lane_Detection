@@ -14,42 +14,33 @@ The aim of this work is to develop a system that is able to recognize the roadwa
 
 # Description (dataset)
 
-The dataset used in this work contains 7820 images extracted from 391 videos taken by the Duckietown servers ([Duckitown Videos link](http://ipfs.duckietown.org:8080/ipfs/QmUbtwQ3QZKmmz5qTjKM3z8LJjsrKBWLUnnzoE5L4M7y7J/logs/gallery.html)). Among those images, 782 have been labeled. 
-The size of the images in this dataset is 256 x 128 RGB, while for the labeled images is 256 x 128 Gray Scale.
-
-the whole data set was created starting from the videos taken from the site 
-
-Data Costruction
-- 256 x 128 RGB (images)
-- 256 x 128 Gray scale (labels)
-- Each 13th and 20th frame in a sequence are labeled
-- Each folder consists of 20 images which are a sequence of a 4 second video
+The dataset used in this work has been set up starting from 391 4-seconds-long videos taken by the Duckietown servers ([Duckitown Videos link](http://ipfs.duckietown.org:8080/ipfs/QmUbtwQ3QZKmmz5qTjKM3z8LJjsrKBWLUnnzoE5L4M7y7J/logs/gallery.html)). From every video, 20 frames have been drawn and organized in a single folder; particularly, each 13th and 20th frames have been labeled. Finally, the dataset contains 7820 images, among which 782 are labels. The size of the images in this dataset is 256 x 128 RGB, while for the labeled images is 256 x 128 Gray Scale.
 
 ## Using
 
-If you want to use the same CNN please look at the paper [github Link](https://github.com/Sigma117/Robust-Lane-Detection) everything is described
+If you want to use the same CNN for training your own training set, please look at the paper [github Link](https://github.com/Sigma117/Robust-Lane-Detection), where everything is described.
+
+## Pre-trained model
+
+In this work I only present the pre-trained model; if you want to train your own model with my dataset, you can download it and take the CNN from the link provided in the Using section.
+
+To make the pre-trained model work, you need to perform the following steps:
+1. Download all Duck folder (see the Download part in the bottom)
+2. Download the Test set (see the Download part in the bottom)
+3. Open Config.py file and change all path in your path
+4. Launch file Test.py
+
+If you want use different images for the test-set, you just need to add them to the test set and change the Test_index.txt (in this case you can use one of my random labels, you don't need to create your own labels). 
 
 ### Requirement
 - PyTorch 0.4.0
 - Python 3.6
 - CUDA 8.0
 
-## Pretrained model
-
-
-In this work i show only preterened model, if you want train your ouw model you can download my dataset and take the CNN from the link in the Using section.
-
-To make the pre-trained model work, you need to do this steps.
-- Download all Duck folder [Duck](https://github.com/Sigma117/Duck_Lane_Detection/tree/main/Duck)
-- Download the Test set
-- Open Config.py file and change all path in your path
-- Lanch file Test.py
-
-If you want try different images you just need to add them on the test set and change the Test_index.txt (in this case you can use one of my random labels, you cont need to create as you own labels)
-
 ## Download
 
 You can download this dataset from the link:
+- [Duck](https://github.com/Sigma117/Duck_Lane_Detection/tree/main/Duck)
 - [Train_Duck](https://drive.google.com/drive/folders/1izZTAy_6rkxxlPdOxZ9V6tvzsYUJbYBU?usp=sharing)
 - [Labels](https://drive.google.com/drive/folders/1jNy0ZBTjs7w74amte1DpFpBuoLzrU_FF?usp=sharing)
 - [Test_set](https://drive.google.com/drive/folders/11A-0cB7XQtpLR-CAJVxTIYlRb9RuAbSY?usp=sharing)
