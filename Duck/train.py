@@ -107,7 +107,7 @@ if __name__ == '__main__':
     criterion = torch.nn.CrossEntropyLoss(weight=class_weight).to(device)
     best_acc = 0
 
-    pretrained_dict = torch.load(config.pretrained_path) # , map_location=torch.device('cpu') è stata aggiunta se si usa cpu
+    pretrained_dict = torch.load(config.pretrained_path)
     model_dict = model.state_dict()
 
     pretrained_dict_1 = {k: v for k, v in pretrained_dict.items() if (k in model_dict)}
