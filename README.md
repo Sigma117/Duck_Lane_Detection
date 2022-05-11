@@ -25,5 +25,6 @@ Data Costruction
 - Each 13th and 20th frame in a sequence are labeled
 - Each folder consists of 20 images which are a sequence of a 4 second video
 
+## Using
 
-
+if you want to use the same CNN please look at the paper [github Link](https://github.com/Sigma117/Robust-Lane-Detection) everything is described
