@@ -13,7 +13,7 @@ def train(args, epoch, model, train_loader, device, optimizer, criterion):
     for batch_idx,  sample_batched in enumerate(train_loader):
         data, target = sample_batched['data'].to(device), sample_batched['label'].type(torch.LongTensor).to(device) # LongTensor
         optimizer.zero_grad()
-        output, x = model(data) #x aggiunto e non so perche ora il train funziona
+        output, x = model(data)
         loss = criterion(output, target)
         loss.backward()
         optimizer.step()
