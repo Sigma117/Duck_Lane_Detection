@@ -40,7 +40,7 @@ If you want to use the same CNN please look at the paper [github Link](https://g
 In this work i show only preterened model, if you want train your ouw model you can download my dataset and take the CNN from the link in the Using section.
 
 To make the pre-trained model work, you need to do this steps.
-- Download all Duck folder
+- Download all Duck folder [Duck](https://github.com/Sigma117/Duck_Lane_Detection/tree/main/Duck)
 - Download the Test set
 - Open Config.py file and change all path in your path
 - Lanch file Test.py
