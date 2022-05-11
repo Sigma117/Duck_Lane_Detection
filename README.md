@@ -11,3 +11,9 @@ The main object of this work is to create a system can recognize a roadway using
 
 
 ![IMAGE 2022-05-11 10:29:57](https://user-images.githubusercontent.com/71655239/167804934-f9d6e8b9-c861-4220-ad93-3941c6d9824f.jpg) ![IMAGE 2022-05-11 10:30:09](https://user-images.githubusercontent.com/71655239/167804985-70d3dcba-5dcd-46fa-a0c6-1e8893efb320.jpg) ![IMAGE 2022-05-11 10:30:29](https://user-images.githubusercontent.com/71655239/167805069-1588e18a-1e4f-41ab-927c-1181181548ef.jpg)
+
+# Description (dataset)
+
+This dataset contains 7820 image for lane detection and 782 frames of them are labeled, created from 391 continuous driving scenario videos.
+The size of images in this dataset is 256*128 RGB and the labeled images is 256*128 Gray Scale.
+
